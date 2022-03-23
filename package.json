@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start_dev": "set NODE_ENV=production&&ts-node-dev src/server.ts",
-    "start_prod": "set NODE_ENV=development&&ts-node src/server.ts"
+    "start": "set NODE_ENV=development&&ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
